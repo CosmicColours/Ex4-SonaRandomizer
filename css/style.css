@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+.part {
+    justify-content: center;
+    display: flex;
+
+}
+
+/* all code above shouldn't need to be changed */
+
+
+/* You could change the colors to start with something more interesting :) */
+.top {
+    background-color: #efefef;
+
+    align-content: flex-end;
+    transition: 0.4s;
+}
+
+.top:hover {
+    filter: sepia(40%);
+
+}
+
+.middle {
+    background-color: #d5d5d5;
+
+    transition: 0.4s;
+}
+
+.middle:hover {
+    filter: sepia(40%);
+
+}
+
+.bottom {
+    background-color: #c2c2c2;
+
+    transition: 0.4s;
+}
+
+.bottom:hover {
+    filter: sepia(40%);
+}
